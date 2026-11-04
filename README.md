@@ -7,13 +7,13 @@ AI를 활용한 통계분석 및 연구방법 — 직원 대상 통계교육 실
 
 ## 숙제: 직접 해 보고, 정답을 확인하세요
 
-1. **자료 받기** — `data/appendicitis_synthetic.csv` 파일 하나만 내려받습니다.
-2. **내가 쓰는 AI에 CSV만 올리기** — 이 저장소 전체를 AI에 연결하지 마세요. `answer_key/` 폴더에 정답이 있어서 AI가 그 파일을 읽고 답을 맞출 수 있습니다. 강의 준비 중에 실제로 그런 일이 있었습니다.
+1. **자료 받기** — `data/appendicitis_synthetic.csv` 파일 하나만 내려받습니다. 파일을 연 뒤 오른쪽 위의 내려받기(Download raw file) 버튼을 누르면 됩니다.
+2. **내가 쓰는 AI에 CSV만 올리기** — `answer_key/` 폴더에 정답이 있습니다. 이 저장소를 통째로 AI에 연결하면 AI가 정답 파일을 읽고 답을 맞출 수 있습니다. 강의 준비 중에 실제로 그런 일이 있었습니다.
 3. **지시문 넣기**
-   - 파일을 올릴 수 있는 AI(대화창): `prompts/03_try-it-yourself.md`
-   - 코드를 실행하는 AI(Claude Code 등): `prompts/04_analysis-steps.md`의 단계를 차례로
-4. **검증하기** — AI의 답을 아래 10가지 질문으로 확인합니다. 틀린 곳이 나와도 열받거나 포기하지 말고, 다시 물어서 고치세요.
-5. **정답 확인** — 다 한 뒤에 `answer_key/README.md`를 열어 내 결과와 비교합니다.
+   - 대화창 AI(Claude, ChatGPT 등)에 파일을 올릴 수 있으면: CSV를 올리고 `prompts/03_try-it-yourself.md`를 붙여 넣습니다.
+   - Claude Code처럼 저장소에서 코드를 실행하는 AI를 쓰면: **내 GitHub에 새 저장소를 만들어 CSV 하나만 올리고**, 그 저장소에서 `prompts/04_analysis-steps.md`의 0~6단계를 차례로 넣습니다. 이 저장소를 그대로 연결하지 마세요.
+4. **검증하기** — 아래 10가지 질문으로 AI의 답을 확인하고, `homework/scorecard.md`(채점표)를 채웁니다. 틀린 곳이 나와도 열받거나 포기하지 말고, 다시 물어서 고치세요.
+5. **정답 확인** — 채점표를 다 채운 뒤에 `answer_key/README.md`를 열어 비교합니다.
 
 ### AI 결과를 받으면 묻는 10가지
 
@@ -34,6 +34,7 @@ AI를 활용한 통계분석 및 연구방법 — 직원 대상 통계교육 실
 |---|---|
 | data/appendicitis_synthetic.csv | 급성 충수염 가상 환자 2,000명 (2016–2025, 연 200명) |
 | prompts/ | 강의에서 AI에 넣은 지시문 |
+| homework/scorecard.md | 채점표: 정답을 보기 전에 채우기 |
 | code/ | 내가 만든 코드를 저장하는 곳 (지시문이 이 폴더를 씀) |
 | results/ | 내 결과 표와 그림이 저장되는 곳 |
 | answer_key/ | **정답. 숙제를 끝낸 뒤에 여세요** |
